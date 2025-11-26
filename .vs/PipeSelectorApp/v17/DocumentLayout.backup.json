@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\viewmodels\\pipesperhourmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\viewmodels\\pipesperhourmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\viewmodels\\pipesperhourmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\viewmodels\\pipesperhourmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\pipesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\pipesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -34,11 +34,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 356,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -49,11 +53,12 @@
               "ToolTip": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\App.xaml",
               "RelativeToolTip": "PipeSelectorApp\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-27T07:57:20.384Z"
+              "WhenOpened": "2025-08-27T07:57:20.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PipesDbContext.cs",
               "DocumentMoniker": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\PipesDbContext.cs",
               "RelativeDocumentMoniker": "PipeSelectorApp\\PipesDbContext.cs",
@@ -65,20 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PipesPerHourModel.cs",
               "DocumentMoniker": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\ViewModels\\PipesPerHourModel.cs",
               "RelativeDocumentMoniker": "PipeSelectorApp\\ViewModels\\PipesPerHourModel.cs",
               "ToolTip": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\ViewModels\\PipesPerHourModel.cs",
               "RelativeToolTip": "PipeSelectorApp\\ViewModels\\PipesPerHourModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T07:13:26.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "PipeSelectorApp\\App.xaml.cs",
@@ -90,14 +95,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "PipeSelectorApp\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\MainWindow.xaml",
               "RelativeToolTip": "PipeSelectorApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-27T07:02:24.591Z"
+              "WhenOpened": "2025-08-27T07:02:24.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -109,7 +115,8 @@
               "RelativeToolTip": "PipeSelectorApp\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T07:02:24.469Z"
+              "WhenOpened": "2025-08-27T07:02:24.469Z",
+              "EditorCaption": ""
             }
           ]
         }

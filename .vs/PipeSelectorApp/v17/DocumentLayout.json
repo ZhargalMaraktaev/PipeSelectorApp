@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\viewmodels\\pipesperhourmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\viewmodels\\pipesperhourmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\viewmodels\\pipesperhourmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\viewmodels\\pipesperhourmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|solutionrelative:pipeselectorapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C034B552-CA04-4378-88D1-6229BAE620EC}|PipeSelectorApp\\PipeSelectorApp.csproj|c:\\users\\z.maraktaev\\source\\repos\\pipeselectorapp\\pipeselectorapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 356,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PipesPerHourModel.cs",
               "DocumentMoniker": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\ViewModels\\PipesPerHourModel.cs",
               "RelativeDocumentMoniker": "PipeSelectorApp\\ViewModels\\PipesPerHourModel.cs",
               "ToolTip": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\ViewModels\\PipesPerHourModel.cs",
               "RelativeToolTip": "PipeSelectorApp\\ViewModels\\PipesPerHourModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYBAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T07:13:26.778Z",
               "EditorCaption": ""
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\z.maraktaev\\source\\repos\\PipeSelectorApp\\PipeSelectorApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "PipeSelectorApp\\MainWindow.xaml",
