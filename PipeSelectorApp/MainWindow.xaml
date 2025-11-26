@@ -1,0 +1,58 @@
+﻿<Window x:Class="PipeSelectorApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:PipeSelectorApp.ViewModels"
+        Title="Выбор параметров трубы" Height="400" Width="600" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Выберите параметры для получения плана в час" 
+                   FontSize="16" FontWeight="Bold" Margin="0,0,0,10" HorizontalAlignment="Center"/>
+
+        <!-- Номенклатура трубы -->
+        <Label Grid.Row="1" Grid.Column="0" Content="Номенклатура трубы:" Margin="0,5,10,5" VerticalAlignment="Center"/>
+        <ComboBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Nomenclatures}" 
+                  SelectedItem="{Binding SelectedNomenclature}" DisplayMemberPath="DisplayName" 
+                  Margin="0,5" Height="30" VerticalContentAlignment="Center"/>
+
+        <!-- Группа прочности -->
+        <Label Grid.Row="2" Grid.Column="0" Content="Группа прочности:" Margin="0,5,10,5" VerticalAlignment="Center"/>
+        <ComboBox Grid.Row="2" Grid.Column="1" ItemsSource="{Binding StrengthClasses}" 
+                  SelectedItem="{Binding SelectedStrengthClass}" DisplayMemberPath="StrengthClass" 
+                  Margin="0,5" Height="30" VerticalContentAlignment="Center"/>
+
+        <!-- Тип резьбы -->
+        <Label Grid.Row="3" Grid.Column="0" Content="Тип резьбы:" Margin="0,5,10,5" VerticalAlignment="Center"/>
+        <ComboBox Grid.Row="3" Grid.Column="1" ItemsSource="{Binding PipeThreads}" 
+                  SelectedItem="{Binding SelectedPipeThread}" DisplayMemberPath="pipe_thread" 
+                  Margin="0,5" Height="30" VerticalContentAlignment="Center"/>
+
+        <!-- Участок -->
+        <Label Grid.Row="4" Grid.Column="0" Content="Участок:" Margin="0,5,10,5" VerticalAlignment="Center"/>
+        <ComboBox Grid.Row="4" Grid.Column="1" ItemsSource="{Binding Sections}" 
+                  SelectedItem="{Binding SelectedSection}" DisplayMemberPath="section" 
+                  Margin="0,5" Height="30" VerticalContentAlignment="Center"/>
+
+        <!-- Кнопка для получения результата -->
+        <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Content="Получить план в час" 
+                Command="{Binding GetPipesPerHourCommand}" Margin="0,15,0,10" Width="200" Height="35" 
+                HorizontalAlignment="Center" FontSize="14" Background="#4CAF50" Foreground="White"/>
+
+        <!-- Результат -->
+        <TextBlock Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding PipesPerHourResult, StringFormat='Pipes per hour: {0}', FallbackValue='Pipes per hour: Not available'}" 
+                   Margin="0,10" FontSize="14" FontWeight="Bold" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
